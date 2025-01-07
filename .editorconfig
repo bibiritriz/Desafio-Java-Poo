@@ -1,0 +1,12 @@
+# Indica que este é o arquivo raiz .editorconfig
+root = true
+
+# Configurações globais aplicáveis a todos os arquivos
+[*]
+charset = utf-8                  # Define a codificação como UTF-8
+end_of_line = lf                 # Usa LF como caractere de quebra de linha
+insert_final_newline = true      # Garante uma nova linha no final do arquivo
+trim_trailing_whitespace = true  # Remove espaços em branco no final de cada linha
+indent_style = space             # Usa espaços para indentação
+indent_size = 4                  # Tamanho padrão de indentação: 4 espaços
+max_line_length = 120            # Define o limite de 120 caracteres por linha
